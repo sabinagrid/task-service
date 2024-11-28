@@ -1,0 +1,12 @@
+.idea/
+*.iml
+out/
+target/
+maven-wrapper.jar
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
