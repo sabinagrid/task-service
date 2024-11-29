@@ -10,3 +10,4 @@ maven-wrapper.jar
 *.swo
 Thumbs.db
 .DS_Store
+.env
