@@ -3,23 +3,27 @@
 1. Clone the repository.
 
 2. Create a `.env` file in the root directory with the following content:
+
    POSTGRES_USER=app_user
    POSTGRES_PASSWORD=securepassword
    POSTGRES_DB=task_management
    POSTGRES_PORT=5432
 
-3. Run the following command to start the database:
+4. Run the following command to start the database:
    docker-compose up -d
 
-4. Connect to the database using any SQL client (e.g., DBeaver):
+5. Connect to the database using any SQL client (e.g., DBeaver):
+
    - Host: `localhost`
    - Port: `5432`
    - Database: `task_management`
    - Username: `app_user`
    - Password: `securepassword`
 
-5. Run the following test query:
+7. Run the following test query:
+   
    SELECT version();
 
 Stopping the Database:
+
     docker-compose down
